@@ -47,6 +47,7 @@ const getUserDetails = async (req, res) => {
             }
             sendResponse(res,"","Please Login / signin First!!!",401)
         }
+        sendResponse(res,"","Please Login / signin First!!!",401)
     }
     catch (err) {
         console.log(err)
